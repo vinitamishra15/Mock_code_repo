@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="CMDB Multisource Recompute Task" language="en" table="cmdb_multisource_recomp_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint>Task generated to recompute CMDB data using MultiSource Records</hint>
+            <label>CMDB Multisource Recompute Task</label>
+            <language>en</language>
+            <name>cmdb_multisource_recomp_task</name>
+            <plural>CMDB Multisource Recompute Tasks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-05-16 18:43:42</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>CMDB Multisource Recompute Task</sys_name>
+            <sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">19d5bf8ce412021008dda4ccc400804a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+            <sys_update_name>sys_documentation_cmdb_multisource_recomp_task__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-06 07:56:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65550360000002</claim_timestamp>
+        <metadata_update_name>sys_documentation_cmdb_multisource_recomp_task__en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:56:05</sys_created_on>
+        <sys_id>ee6ddbd047641210acd2a22f316d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:56:05</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65550360000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_cmdb_multisource_recomp_task__en</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.cmdb</previous_claim_name>
+        <previous_claim_scope>com.snc.cmdb</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:56:05</sys_created_on>
+        <sys_id>a26ddbd047641210acd2a22f316d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:56:05</sys_updated_on>
+    </sys_claim>
+</record_update>

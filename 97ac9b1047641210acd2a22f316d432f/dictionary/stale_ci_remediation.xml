@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ab363344e452021008dda4ccc40080db" extends="task" label="Stale CI Remediation" max_length="40" name="stale_ci_remediation" text_index="true" type="collection"/>
+</database>

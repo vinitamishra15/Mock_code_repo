@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9ff5f340e452021008dda4ccc4008062" extends="task" label="CMDB Multisource Recompute Task" max_length="40" name="cmdb_multisource_recomp_task" text_index="true" type="collection"/>
+</database>

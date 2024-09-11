@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="40eb7b84e416021008dda4ccc400802f" extends="task" label="Scan Task" max_length="40" name="scan_task" text_index="true" type="collection"/>
+</database>

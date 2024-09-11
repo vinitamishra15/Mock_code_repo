@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Transfer Order Line Subtask" language="en" table="alm_transfer_order_line_subtask">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Transfer Order Line Subtask</label>
+            <language>en</language>
+            <name>alm_transfer_order_line_subtask</name>
+            <plural>Transfer Order Line Subtasks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-05-16 18:51:38</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Transfer Order Line Subtask</sys_name>
+            <sys_package display_value="Asset Management" source="com.snc.asset_management">39a7b308e492021008dda4ccc400802b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+            <sys_update_name>sys_documentation_alm_transfer_order_line_subtask__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-06 07:56:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65548850000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_alm_transfer_order_line_subtask__en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:56:03</sys_created_on>
+        <sys_id>0e6ddbd047641210acd2a22f316d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:56:03</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65548840000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_alm_transfer_order_line_subtask__en</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.asset_management</previous_claim_name>
+        <previous_claim_scope>com.snc.asset_management</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:56:03</sys_created_on>
+        <sys_id>ce6ddbd047641210acd2a22f316d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:56:03</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Provide write access to the following users:&#13;
+1. Group manager for the provided group&#13;
+2. Have rota_manager role inherited for this group&#13;
+3. Listed as one of the approvers for this record&#13;
+4. Have rota_admin role</description>
+        <local_or_existing/>
+        <name>roster_schedule_span_proposal</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = false;
+var loggedInUserId = gs.getUserID();
+var approversList = new OCRosterSpanApprovalUtil().getPTOApproversList(current);
+if (approversList.indexOf(loggedInUserId) > -1)
+	answer = true;
+if (!answer) {
+	var ocSecurityNg = new OnCallSecurityNG();
+	if (current.roster_schedule_span.group) {
+		answer = ocSecurityNg.rotaMgrAccess(current.roster_schedule_span.group + "");
+	}
+}]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 11:35:23</sys_created_on>
+        <sys_id>0c837fa5eb061110249e8d835d522868</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>roster_schedule_span_proposal</sys_name>
+        <sys_package display_value="On-Call Scheduling" source="com.snc.on_call_rotation">be6b73c0e416021008dda4ccc40080ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+        <sys_update_name>sys_security_acl_0c837fa5eb061110249e8d835d522868</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:29</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c654c37e0000002</claim_timestamp>
+        <metadata_update_name>sys_security_acl_0c837fa5eb061110249e8d835d522868</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:29</sys_created_on>
+        <sys_id>294ddf9047641210acd2a22f316d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:29</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c654c37e0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_0c837fa5eb061110249e8d835d522868</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.on_call_rotation</previous_claim_name>
+        <previous_claim_scope>com.snc.on_call_rotation</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:29</sys_created_on>
+        <sys_id>e94ddf9047641210acd2a22f316d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:29</sys_updated_on>
+    </sys_claim>
+</record_update>

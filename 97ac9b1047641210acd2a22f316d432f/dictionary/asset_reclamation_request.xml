@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="abc7b748e492021008dda4ccc4008025" extends="task" label="Asset Reclamation Request" max_length="40" name="asset_reclamation_request" text_index="true" type="collection"/>
+</database>

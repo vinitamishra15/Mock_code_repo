@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for records in sys_report_access_request, if the ACL script returns true.</description>
+        <local_or_existing/>
+        <name>sys_report_access_request</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = isInApproverGroup() && isAllowedToGrantRole();
+
+function isInApproverGroup() {
+	var groupDefault = '58851c2353322010a480ddeeff7b12b0'; //Report Access Request Approvers
+	var group = gs.getProperty('glide.report.request_approver_group', groupDefault);
+	var groups = gs.getUser().getMyGroups();
+	if (groups.isEmpty())
+		return false;
+
+	return groups.contains(group);
+}
+
+function isAllowedToGrantRole() {
+	var aclMgr = new SNC.ScopedReportViewACLManager();
+	return aclMgr.isUserAllowedToGrantRole(GlideUser.getCurrentUser().getID(), current.role);
+}]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-05 20:39:28</sys_created_on>
+        <sys_id>f436f85a53132010a480ddeeff7b12f2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>sys_report_access_request</sys_name>
+        <sys_package display_value="Report Access Request" source="com.glideapp.report.access_request">fd8cff88e416021008dda4ccc400805b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+        <sys_update_name>sys_security_acl_f436f85a53132010a480ddeeff7b12f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:01</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65456bd0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_f436f85a53132010a480ddeeff7b12f2</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:01</sys_created_on>
+        <sys_id>f62d579047641210acd2a22f316d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:01</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65456bb0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_f436f85a53132010a480ddeeff7b12f2</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.report.access_request</previous_claim_name>
+        <previous_claim_scope>com.glideapp.report.access_reque</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:01</sys_created_on>
+        <sys_id>ba2d579047641210acd2a22f316d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:01</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for all fields in kb_feedback_task, for users with role public, and if the ACL script returns true.</description>
+        <local_or_existing/>
+        <name>kb_feedback_task.*</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[(function(){
+    //Allow access to assignee and submitter
+    var user = gs.getUserID();
+    if(current.assigned_to == user || current.opened_by == user)
+    return true;
+    
+	//Allow access if can contribute to an article on which feedback is reported
+	if(current.feedback && current.feedback.article){
+		var knowledgeHelper = new SNC.KnowledgeHelper();
+		return knowledgeHelper.canContribute(current.feedback.article.getRefRecord());
+	}
+	
+	//Allow access if can read the parent task record
+	if(current.parent){
+		var gr = new GlideRecord('task');
+		if(gr.get(current.parent)){
+			return gr.canRead();
+		}
+	}
+	return false;
+})();]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-02-21 23:18:54</sys_created_on>
+        <sys_id>f772332b759013000ec9ad5d223cabcc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>kb_feedback_task.*</sys_name>
+        <sys_package display_value="Knowledge Management Core" source="com.glideapp.knowledge">1e187fc8e492021008dda4ccc40080a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+        <sys_update_name>sys_security_acl_f772332b759013000ec9ad5d223cabcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c6551ee70000002</claim_timestamp>
+        <metadata_update_name>sys_security_acl_f772332b759013000ec9ad5d223cabcc</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:52</sys_created_on>
+        <sys_id>175dd7d047641210acd2a22f316d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:52</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c6551ee70000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_f772332b759013000ec9ad5d223cabcc</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.knowledge</previous_claim_name>
+        <previous_claim_scope>com.glideapp.knowledge</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:52</sys_created_on>
+        <sys_id>d75dd7d047641210acd2a22f316d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:52</sys_updated_on>
+    </sys_claim>
+</record_update>

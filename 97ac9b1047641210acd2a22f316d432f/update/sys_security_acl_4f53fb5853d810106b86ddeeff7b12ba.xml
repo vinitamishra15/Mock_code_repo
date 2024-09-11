@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="alm_transfer_order_line_task.description">stateNOT IN3,7^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow writing to 'Description' for inventory user, itil</description>
+        <local_or_existing/>
+        <name>alm_transfer_order_line_task.description</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 05:47:28</sys_created_on>
+        <sys_id>4f53fb5853d810106b86ddeeff7b12ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>alm_transfer_order_line_task.description</sys_name>
+        <sys_package display_value="Asset Management" source="com.snc.asset_management">39a7b308e492021008dda4ccc400802b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+        <sys_update_name>sys_security_acl_4f53fb5853d810106b86ddeeff7b12ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:57</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c655315b0000002</claim_timestamp>
+        <metadata_update_name>sys_security_acl_4f53fb5853d810106b86ddeeff7b12ba</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:57</sys_created_on>
+        <sys_id>206d1bd047641210acd2a22f316d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:57</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c655315b0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_4f53fb5853d810106b86ddeeff7b12ba</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.asset_management</previous_claim_name>
+        <previous_claim_scope>com.snc.asset_management</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:57</sys_created_on>
+        <sys_id>e06d1bd047641210acd2a22f316d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:57</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Orphan CI Remediation</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>orphan_ci_remediation</name>
+        <number_ref display_value="ORPH">13810b43d7301200c1ed0fbc5e6103c7</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">7b35bf08e412021008dda4ccc4008004</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-05-16 18:47:53</sys_created_on>
+        <sys_id>b8f6bf8ce452021008dda4ccc400809c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Orphan CI Remediation</sys_name>
+        <sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">19d5bf8ce412021008dda4ccc400804a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+        <sys_update_name>sys_db_object_b8f6bf8ce452021008dda4ccc400809c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:54:54</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65439850000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_b8f6bf8ce452021008dda4ccc400809c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:54:54</sys_created_on>
+        <sys_id>012d939047641210acd2a22f316d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:54:54</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65439840000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_b8f6bf8ce452021008dda4ccc400809c</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.cmdb</previous_claim_name>
+        <previous_claim_scope>com.snc.cmdb</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:54:54</sys_created_on>
+        <sys_id>c12d939047641210acd2a22f316d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:54:54</sys_updated_on>
+    </sys_claim>
+</record_update>

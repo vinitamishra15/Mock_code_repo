@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 23:22:18</sys_created_on>
+        <sys_id>33a29be577d20110ee0d0cc2fa5a9941</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cmdb_data_management_task.assigned_to.data_manager_user</sys_name>
+        <sys_package display_value="CMDB Data Manager" source="com.snc.cmdb.ci_lifecycle_manager">be7cbb88e416021008dda4ccc4008067</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+        <sys_security_acl display_value="cmdb_data_management_task.assigned_to">0ba25be577d20110ee0d0cc2fa5a99ef</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_33a29be577d20110ee0d0cc2fa5a9941</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:37</sys_updated_on>
+        <sys_user_role display_value="data_manager_user" name="data_manager_user">c627309e53722010af64ddeeff7b1232</sys_user_role>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c654e3fd0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_33a29be577d20110ee0d0cc2fa5a9941</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:37</sys_created_on>
+        <sys_id>b74d53d047641210acd2a22f316d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:37</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c654e3fc0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_33a29be577d20110ee0d0cc2fa5a9941</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.cmdb.ci_lifecycle_manager</previous_claim_name>
+        <previous_claim_scope>com.snc.cmdb.ci_lifecycle_manage</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:37</sys_created_on>
+        <sys_id>7b4d53d047641210acd2a22f316d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:37</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="b4a25f5047241210acd2a22f316d43d9" extends="service_task" label="Finance Task" max_length="40" name="u_finance_task" text_index="true" type="collection"/>
+</database>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fd8cff88e416021008dda4ccc400805d" extends="task" label="Report Access Request" max_length="40" name="sys_report_access_request" text_index="true" type="collection"/>
+</database>

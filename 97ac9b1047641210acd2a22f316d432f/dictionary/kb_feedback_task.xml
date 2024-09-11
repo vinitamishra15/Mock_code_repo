@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="4b18bfc8e492021008dda4ccc40080f9" extends="task" label="Knowledge Feedback Task" max_length="40" name="kb_feedback_task" text_index="true" type="collection"/>
+</database>

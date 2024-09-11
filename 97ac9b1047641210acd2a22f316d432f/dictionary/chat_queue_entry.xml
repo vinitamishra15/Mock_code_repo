@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" create_roles="chat_admin" db_object_id="64453348e412021008dda4ccc400800c" extends="task" label="Chat Queue Entry" max_length="40" name="chat_queue_entry" read_roles="chat_admin" text_index="true" type="collection"/>
+</database>

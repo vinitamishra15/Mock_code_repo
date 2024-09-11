@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1cd7f748e492021008dda4ccc4008098" extends="task" label="Transfer Order Line Task" max_length="40" name="alm_transfer_order_line_task" text_index="true" type="collection"/>
+</database>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d718ffc8e492021008dda4ccc40080bc" extends="sc_request" label="Request new Knowledge Base" max_length="40" name="kb_knowledge_base_request" text_index="true" type="collection"/>
+</database>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="477cbb88e416021008dda4ccc40080de" extends="task" label="CMDB Data Management Task" max_length="40" name="cmdb_data_management_task" text_index="true" type="collection"/>
+</database>

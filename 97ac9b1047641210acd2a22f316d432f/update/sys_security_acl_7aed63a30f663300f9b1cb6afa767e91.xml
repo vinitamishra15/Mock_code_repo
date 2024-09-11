@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for description in kb_feedback_task, if the ACL script returns true.</description>
+        <local_or_existing/>
+        <name>kb_feedback_task.description</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[gs.hasRole("itil", "sn_incident_write");]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 11:44:19</sys_created_on>
+        <sys_id>7aed63a30f663300f9b1cb6afa767e91</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>kb_feedback_task.description</sys_name>
+        <sys_package display_value="Incident" source="com.snc.incident">87e7f788e492021008dda4ccc40080b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+        <sys_update_name>sys_security_acl_7aed63a30f663300f9b1cb6afa767e91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c6551c4f0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_7aed63a30f663300f9b1cb6afa767e91</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:52</sys_created_on>
+        <sys_id>d35d97d047641210acd2a22f316d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:52</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c6551c4e0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_7aed63a30f663300f9b1cb6afa767e91</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.incident</previous_claim_name>
+        <previous_claim_scope>com.snc.incident</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:52</sys_created_on>
+        <sys_id>975d97d047641210acd2a22f316d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:52</sys_updated_on>
+    </sys_claim>
+</record_update>

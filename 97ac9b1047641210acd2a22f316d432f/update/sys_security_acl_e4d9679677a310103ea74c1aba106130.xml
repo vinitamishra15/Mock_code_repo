@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for assignment_group in scan_task, if the ACL script returns true.</description>
+        <local_or_existing/>
+        <name>scan_task.assignment_group</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[(function() {
+	var roles = ["scan_user"];
+	var userHasRole = roles.some(function(role) {
+		return gs.hasRole(role);
+	});
+
+	return userHasRole || gs.getUserID() === current.getValue("assigned_to") ;
+})();]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2020-10-01 23:37:36</sys_created_on>
+        <sys_id>e4d9679677a310103ea74c1aba106130</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>scan_task.assignment_group</sys_name>
+        <sys_package display_value="Instance Scan" source="com.glide.instance_scan">afdb3b84e416021008dda4ccc400804c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+        <sys_update_name>sys_security_acl_e4d9679677a310103ea74c1aba106130</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:48</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c6550f1d0000002</claim_timestamp>
+        <metadata_update_name>sys_security_acl_e4d9679677a310103ea74c1aba106130</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:48</sys_created_on>
+        <sys_id>525d57d047641210acd2a22f316d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:48</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c6550f1d0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_e4d9679677a310103ea74c1aba106130</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.instance_scan</previous_claim_name>
+        <previous_claim_scope>com.glide.instance_scan</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:48</sys_created_on>
+        <sys_id>165d57d047641210acd2a22f316d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:48</sys_updated_on>
+    </sys_claim>
+</record_update>

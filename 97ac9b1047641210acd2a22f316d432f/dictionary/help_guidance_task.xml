@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="498afb0ce4d2021008dda4ccc4008084" extends="task" label="Guidance Task" max_length="40" name="help_guidance_task" text_index="true" type="collection"/>
+</database>

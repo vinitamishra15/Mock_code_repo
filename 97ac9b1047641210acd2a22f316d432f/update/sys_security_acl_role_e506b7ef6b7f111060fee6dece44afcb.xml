@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 16:43:31</sys_created_on>
+        <sys_id>e506b7ef6b7f111060fee6dece44afcb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>kb_feedback_task.knowledge_manager</sys_name>
+        <sys_package display_value="Knowledge Management Core" source="com.glideapp.knowledge">1e187fc8e492021008dda4ccc40080a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
+        <sys_security_acl display_value="kb_feedback_task">18c577ef6b7f111060fee6dece44af98</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e506b7ef6b7f111060fee6dece44afcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:53</sys_updated_on>
+        <sys_user_role display_value="knowledge_manager" name="knowledge_manager">f8bfbd02eb202100216a87b9d106fe92</sys_user_role>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65521e40000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_e506b7ef6b7f111060fee6dece44afcb</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Devops demo scoped App</previous_claim_name>
+        <previous_claim_scope>97ac9b1047641210acd2a22f316d432f</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:53</sys_created_on>
+        <sys_id>2f5dd7d047641210acd2a22f316d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:53</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</claim_owner_scope>
+        <claim_timestamp>191c65521e30000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_e506b7ef6b7f111060fee6dece44afcb</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.knowledge</previous_claim_name>
+        <previous_claim_scope>com.glideapp.knowledge</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 07:55:53</sys_created_on>
+        <sys_id>ef5dd7d047641210acd2a22f316d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 07:55:53</sys_updated_on>
+    </sys_claim>
+</record_update>

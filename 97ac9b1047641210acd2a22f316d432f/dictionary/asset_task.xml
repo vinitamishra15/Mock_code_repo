@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="f7c7b748e492021008dda4ccc4008079" extends="task" label="Asset Task" max_length="40" name="asset_task" text_index="true" type="collection"/>
+</database>

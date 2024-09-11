@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="18367704e452021008dda4ccc4008012" extends="task" label="Reclassification Task" max_length="40" name="reclassification_task" text_index="true" type="collection"/>
+</database>
