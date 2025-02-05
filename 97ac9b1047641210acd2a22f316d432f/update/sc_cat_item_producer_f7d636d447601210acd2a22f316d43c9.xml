@@ -96,14 +96,14 @@ function checkRedirect() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-06 05:07:42</sys_created_on>
         <sys_id>f7d636d447601210acd2a22f316d43c9</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Service Category Request HP Demo</sys_name>
         <sys_package display_value="Devops demo scoped App" source="97ac9b1047641210acd2a22f316d432f">97ac9b1047641210acd2a22f316d432f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
         <sys_update_name>sc_cat_item_producer_f7d636d447601210acd2a22f316d43c9</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-02-05 19:12:33</sys_updated_on>
+        <sys_updated_on>2025-02-05 19:19:21</sys_updated_on>
         <table_name>catalog_category_request</table_name>
         <taxonomy_topic/>
         <template/>
@@ -111,7 +111,7 @@ function checkRedirect() {
         <type>item</type>
         <use_sc_layout>false</use_sc_layout>
         <vendor/>
-        <version>50</version>
+        <version>51</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
