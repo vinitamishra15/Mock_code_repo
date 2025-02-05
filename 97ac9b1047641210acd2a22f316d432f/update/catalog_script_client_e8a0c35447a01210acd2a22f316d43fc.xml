@@ -19,7 +19,7 @@
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-	// This is a comment on 5-Feb-2025
+	// This is a comment on 5-Feb-2025 - comment final
 	if (isLoading || newValue == '')
 		return;
 	
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e8a0c35447a01210acd2a22f316d43fc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Department or Group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Devops demo scoped App" source="97ac9b1047641210acd2a22f316d432f">97ac9b1047641210acd2a22f316d432f</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="Devops demo scoped App">97ac9b1047641210acd2a22f316d432f</sys_scope>
         <sys_update_name>catalog_script_client_e8a0c35447a01210acd2a22f316d43fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-05 16:58:30</sys_updated_on>
+        <sys_updated_on>2025-02-05 19:12:33</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>
